@@ -1,0 +1,19 @@
+{
+    "name": "Matiww/Plugin",
+    "description": "Plugin",
+    "type": "plugin",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Matiww\\Plugin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Matiww\\Plugin\\PluginServiceProvider"
+            ]
+        }
+    }
+}
